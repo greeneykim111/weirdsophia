@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "Do you know about this job I applied to?",
+  "Do you like this super random niche literary guy that nobody really cares about anymore because he's sexist and has weird thoughts about his mom?",
+  "What do you know about Christopher Columbus?",
 ];
 
 export default function Chat() {
@@ -83,7 +83,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Hi, I'm Evil Sophia (Sophocles).
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
